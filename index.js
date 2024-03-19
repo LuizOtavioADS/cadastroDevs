@@ -87,7 +87,7 @@ addTechBtn.addEventListener('click', function(ev){
 form.addEventListener('submit', function(ev){
     ev.preventDefault()
 
-    const fullNameInput = document.getElementById('fullname')
+    const fullNameInput = document.getElementById('fullName')
     const inputRows = document.querySelectorAll('.inputRow')
 
     let techs = []
